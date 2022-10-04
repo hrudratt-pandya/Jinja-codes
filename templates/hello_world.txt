@@ -1,0 +1,13 @@
+Hello, World
+
+This is capitalize_filter {{name | capitalize}}, it'll capital first letter.
+This is upper_filter {{name | upper}}, it'll convert string into capital case.
+This is lower_filter {{name | lower}}, it'll convert string into lower case.
+This is title_filter {{name | title}}, it'll capital first letter.
+This is center_filter {{name | center}},it'll send string into center.
+This is float_filter {{input_number | float}},it'll convert number into float.
+This is int_filter {{input_number | int}},it'll convert number into int.
+This is trim_filter {{name | trim}}, it'll remove extra space from the starting & ending of the string.
+This is join_filter {{color_list | join(" ")}}, it'll join the list
+This is first_filter {{color_list | first}}, it'll take zeroth position value from the list.
+This is default_filter {{Myname | default('default_value')}}, it'll put default value if you'll now pass the value.

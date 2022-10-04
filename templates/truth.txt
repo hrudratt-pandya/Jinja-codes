@@ -1,0 +1,7 @@
+{% if truth %}{% for color in colors %}
+    {{ color }}
+{% endfor %}
+    This is True
+{% else %}
+    This is False
+{% endif %}
